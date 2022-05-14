@@ -1,5 +1,5 @@
 import React from "react";
-import { projects, miscellaneous, section3Title, section4Title } from '../../profile'
+import { section4Title } from '../../profile'
 import { Carousel } from 'antd';
 
 
