@@ -4,13 +4,13 @@ import { header } from '../../profile'
 
 const Header = () => {
 
-    const scrollTo = () => {
-        window.scrollTo({
-            top: 100000,
-            left: 0,
-            behavior: "smooth"
-        })
-    }
+    // const scrollTo = () => {
+    //     window.scrollTo({
+    //         top: 100000,
+    //         left: 0,
+    //         behavior: "smooth"
+    //     })
+    // }
 
     const toggleDarkMode = (e) =>  {
         document.documentElement.classList.toggle('dark-mode')
@@ -30,15 +30,29 @@ const Header = () => {
     return (
         <div>
             <div className="Header">
-                <h1>{ `I'm ${header.name}` }</h1>
-            <p className="line-1 anim-typewriter">and this is my portfolio... </p>
-            <label className="switch">
-                <input id="mode-switch" onClick={e => toggleDarkMode(e)} type="checkbox"/>
-                <span className="slider round"></span>
-            </label>
+                {/* <h1 className="header1 anim-typewriter">{ `I'm ${header.name}` }</h1>
+            <p > and this is my portfolio... </p> */}
+                <label className="switch">
+                    <input id="mode-switch" onClick={e => toggleDarkMode(e)} type="checkbox"/>
+                    <span className="slider round"></span>
+                </label>
+                <div className="container">
+                <div className="box">
+                <div className="title">
+                    <span className="block"></span>
+                        <h1>{ header.name}<span></span></h1>
+                </div>
+
+                <div className="role">
+                    <div className="block"></div>
+                    <p>Welcome to my portfolio :）</p>
+                    <p><i>Trypophobia Friendly Click to remove the particles :）</i></p>
+                </div>
+                </div>
+            </div>
+            
             <HeaderButton/>
             </div>
-            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="profile.png"></img>
         </div>
     )
     

@@ -9,95 +9,72 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "Yujun (Rachel) Yan",
+  name: "Rachel Yan",
 };
 const background = {
-  // Options: Snow or Particle
-  type: "Particle",
+  type: "Snow",
 };
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Solid academy background of algorithms and internet technology. \
-    Great passion for programming and problem-solving. Fast learner and \
-    open to exploring new technologies. Self-motivated, experimenting, and innovating developer. \
-    Have test-driven development experience in an Agile Team.",
+    "I am self-motivated, experimenting, and innovating. I have a great passion for programming and problem-solving. As a faster learner, I am open to exploring new technologies such as algorithms, internet technology, and software development. Meanwhile, I am a snowboarding and longboarding lover! ",
 };
+
+const languageBar = [
+  { type: "React", level: 85  },
+  { type: "Javascript", level: 75 },
+  { type: "HTML", level: 65 },
+  { type: "CSS", level: 65 },
+  { type: "Webpack", level: 50 },
+  { type: "MySQL", level: 30}
+]
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
 const skillsBar = [
   {
     name: "HTML5",
+    // To add a custom svg instead of font-awesome icons, add svg path below otherwise just comment it out
+    svg: "M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z",
     faClass: "fab fa-html5",
   },
   {
     name: "CSS3",
+    // svg: '',
     faClass: "fab fa-css3",
   },
   {
     name: "Javascript",
+    // svg: '',
     faClass: "fab fa-js",
   },
   {
     name: "Node",
+    // svg: '',
     faClass: "fab fa-node",
   },
   {
     name: "Python",
+    // svg: '',
     faClass: "fab fa-python",
   },
   {
     name: "Java",
+    // svg: '',
     faClass: "fab fa-java",
   },
   {
     name: "Database",
+    // svg: '',
     faClass: "fas fa-database",
   },
   {
     name: "AWS",
+    // svg: '',
     faClass: "fab fa-aws",
   },
 ];
-// Edit your education experience
-const section6Title = "Education";
-const education = 
-  {
-    name1: "University of Melbourne",
-    degree1: "Master of Software Engineering (with Distinctions)",
-    name2: "University of Melbourne",
-    degree2: "Bachelor of Science (Computing and Software Systems)",
-}
-
-// Edit your mcourses
-const mcourses = [
-  { course: "Masters Software Engineering Project" },
-  { course: "Modelling Complex Software Systems" },
-  { course: "High Integrity Systems Engineering" },
-  { course: "Masters Advanced Software Project" },
-  { course: "Advanced Database Systems"},
-  { course: "Security & Software Testing"},
-  { course: "Cryptography and Security" },
-  { course: "Software Design and Architecture" },
-  { course: "Introduction to Machine Learning" },
-  { course: "AI Planning for Autonomy"}
-]
-
-// Edit your bcourses
-const bcourses = [
-  { course: "IT Project" },
-  { course: "Models of Computation" },
-  { course: "Computer Systems" },
-  { course: "Artificial Intelligence" },
-  { course: "Software Modelling and Design"},
-  { course: "Object Oriented Software Development" },
-  { course: "Algorithms and Data Structure" },
-  { course: "Real Analysis" },
-  { course: "Probability for Statistics"}
-]
-
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
@@ -106,47 +83,68 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Family Artefact",
-    skills: ["Vue.js, Node.js, Agile"],
-    url: "https://github.com/wangz9/COMP30022-2019-PythoneProject",
+    name: "Education Design",
+    skills: ["React, Node.js, Firebase"],
+    url: "https://thinkplus.herokuapp.com/",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
     name: "Genyus Roundtable",
-    skills: ["React.js, Firebase.js"],
-    url: "https://github.com/chen-dudu/Genyus-Roundtable",
+    skills: ["React, Node.js, Firebase"],
+    url: "https://bitbucket.cis.unimelb.edu.au:8445/users/yujuny/repos/swen90014-2020-ws-echidna/browse",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Snow360",
-    skills: ["C#"],
-    url: "https://www.youtube.com/watch?v=Fx_K3T4FdcU",
+    name: "Vaccine Booking System",
+    skills: ["React, Java, MySQL"],
+    url: "https://github.com/SWEN900072021/pythrone",
+  },
+  {
+    // Add image in './styles/images.css' in #project4
+    id: "project4",
+    name: "Family Artifacts Register",
+    skills: ["Vue, Node.js, MySQL"],
+    url: "https://www.youtube.com/watch?v=-Kv6vHubhAQ",
+  },
+  {
+    // Add image in './styles/images.css' in #project5
+    id: "project5",
+    name: "AZUL Game",
+    skills: ["Monte Carlo Tree Search, Minimax, BFS"],
+    url: "https://www.youtube.com/watch?v=5LjkuBAmJrw",
+  },
+  {
+    // Add image in './styles/images.css' in #project6
+    id: "project6",
+    name: "Snow 360",
+    skills: ["Unity, C#"],
+    url: "https://m.youtube.com/watch?v=Fx_K3T4FdcU",
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Industry Experience";
+const section4Title = "School & Industry";
 const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
     id: "misc1",
-    name: "Front-end Developer",
-    // url: "https://github.com/kaustubhai",
+    name: "Miscellaneous 1",
+    url: "https://github.com/kaustubhai",
   },
   {
     // Add image in './styles/images.css' in #misc2
     id: "misc2",
-    name: "Software Testing Engineer",
-    // url: "https://github.com/kaustubhai",
+    name: "Miscellaneous 2",
+    url: "https://github.com/kaustubhai",
   },
   {
-    // Add image in './styles/images.css' in #misc2
+    // Add image in './styles/images.css' in #misc3
     id: "misc3",
-    name: "Student Ambassador",
-    // url: "https://github.com/kaustubhai",
+    name: "Miscellaneous 3",
+    url: "https://github.com/kaustubhai",
   },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
@@ -155,8 +153,8 @@ const miscellaneous = [
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Life could be better, but it's good",
-  copyright: "Rachel Yan",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
+  copyright: "Kaustubh Mishra",
   contactUrl: "",
 };
 // Paste your respective social media links. You can omit any if you dont have it
@@ -164,8 +162,9 @@ const contact = {
 const social = {
   github: "https://github.com",
   facebook: "https://facebook.com",
-  linkedin: "https://www.linkedin.com/in/yujun-rachel-yan-4b7010195/",
-  instagram: "https://www.instagram.com/vermouthyyj/",
+  // twitter: "https://twitter.com",
+  instagram: "https://instagram.com",
+  linkedin: "https://linkedin.com",
   resume: "https://novoresume.com/",
 };
 // Dont change anything here
@@ -183,8 +182,5 @@ export {
   section3Title,
   section4Title,
   section5Title,
-  section6Title,
-  education,
-  mcourses,
-  bcourses,
+  languageBar,
 };

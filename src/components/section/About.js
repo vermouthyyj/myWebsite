@@ -1,8 +1,16 @@
 import React from 'react'
 import Skills from '../layouts/Skills'
-import { about, skillsBar, section2title } from '../../profile'
+import { about, skillsBar, section2title, languageBar } from '../../profile'
+import SkillBar from 'react-skillbars';
 
 const About = () => {
+    const colors = {
+        bar: 'lightblue',
+        title: {
+          text: 'white',
+          background: '#0078d7'
+        }
+    }
     return (
         <div id="about" className="effect2">
             <div data-aos="zoom-in-up" data-aos-once="true" className="row">
@@ -11,16 +19,19 @@ const About = () => {
                 <div className="About-title-box">
                 <h1 id="About" className="red-line">{section2title}</h1>
                 </div>
-                    <p className="lead about-text">
-                        {about.paragraph}  
-                    </p>
+                <p className="lead about-text">
+                    {about.paragraph}  
+                </p>
             </div>
+            </div>
+            <div style={{marginTop:"5vh"}}>
+                <SkillBar skills={languageBar} height={'3vh'} colors={colors} animationDelay={ '1000'}/>
             </div>
             <div id="Skills"> 
                 <div className="row d-flex justify-content-center skills">
                     {skillsBar.map((x) => 
-                        <Skills faClass={x.faClass} label={x.name}/>
-                    )}
+                        <Skills key={x.name} faClass={x.faClass} svg={x.svg} label={x.name}/>
+                    )}̀
                 </div> 
             </div>
         </div>

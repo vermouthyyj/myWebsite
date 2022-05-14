@@ -4,6 +4,7 @@ import App from './App';
 import './styles/style.css'
 import './styles/images.css'
 import './styles/no-touch.min.css'
+import 'antd/dist/antd.min.css'
 
 ReactDOM.render(
   <React.StrictMode>
