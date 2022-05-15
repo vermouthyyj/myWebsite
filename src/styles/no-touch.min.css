@@ -203,6 +203,48 @@ button:focus {
   border-bottom: solid 2px var(--primary-color);
   margin-bottom: 15px;
 }
+#skill-bar-component
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding: 0;
+  margin: -15% 0;
+}
+
+.skills {
+  margin: 0 0 1% 0;
+  padding: 0;
+  width: calc(100% - 1%);
+}
+.skills li {
+  display: block;
+  position: relative;
+  background-color: #888;
+  color: #fff;
+  margin: 10px 0;
+  transition: width 900ms ease-in-out;
+}
+.collapsed .skills li {
+  width: 0 !important;
+}
+.skills li p {
+  padding: 1vh;
+  margin: 0;
+  /* font-weight: bold; */
+}
+.skills li span {
+  position: absolute;
+  right: 1vh;
+  display: inline-block;
+  width: 2vw;
+  top: 1vh;
+  text-align: right;
+  font-weight: normal;
+  color: #fff;
+  font-size: 1.25vh;
+}
+
+/* Pen specific styling */
 .skill__square {
   display: inline;
   margin: 15px 0 !important;
@@ -227,7 +269,7 @@ button:focus {
 }
 .skill__square i:hover,
 .skill__square svg:hover {
-  color: #ff4753 !important;
+  color: #0078d7 !important;
 }
 .third {
   width: 75%;

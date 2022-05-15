@@ -1,16 +1,11 @@
 import React from 'react'
 import Skills from '../layouts/Skills'
 import { about, skillsBar, section2title, languageBar } from '../../profile'
-import SkillBar from 'react-skillbars';
+// import SkillBar from 'react-skillbars';
+import SkillBars from '../layouts/SkillBars'
 
 const About = () => {
-    const colors = {
-        bar: 'lightblue',
-        title: {
-          text: 'white',
-          background: '#0078d7'
-        }
-    }
+
     return (
         <div id="about" className="effect2">
             <div data-aos="zoom-in-up" data-aos-once="true" className="row">
@@ -24,8 +19,9 @@ const About = () => {
                 </p>
             </div>
             </div>
-            <div style={{marginTop:"5vh"}}>
-                <SkillBar skills={languageBar} height={'3vh'} colors={colors} animationDelay={ '300'}/>
+            <div data-aos="zoom-in-up" data-aos-once="true">
+                {/* <SkillBars skills={languageBar} height={'3vh'} colors={colors} animationDelay={ '300'}/> */}
+                <SkillBars hue="200" saturation="100" skills={languageBar}></SkillBars>
             </div>
             <div id="Skills"> 
                 <div className="row d-flex justify-content-center skills">
