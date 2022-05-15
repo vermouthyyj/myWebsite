@@ -1,3 +1,4 @@
+import resumesrc from './assets/CV_of_Yujun_Yan.pdf'
 // Change website animations
 const animation = {
   // make it false to switch off fade-up animation
@@ -126,46 +127,50 @@ const projects = [
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "School & Industry";
-const miscellaneous = [
+const section4Title = "Experience";
+const education = [
   {
-    // Add image in './styles/images.css' in #misc1
-    id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
+    uni: "The University of Melbourne",
+    time: "2020.03-2022.01",
+    major: "Master of Software Engineering (with Distinction)",
   },
   {
-    // Add image in './styles/images.css' in #misc2
-    id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc3
-    id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
-  },
+    uni: "The University of Melbourne",
+    time: "2018.02-2019.12",
+    major: "Bachelor of Science",
+  }
 ];
+const industry = [
+  {
+    company: "Boshantech",
+    time: "Melbourne | 2020.12-2021.03",
+    position: "Front-end Developer Intern"
+  },
+  {
+    company: "Xiaomi",
+    time: "Beijing | 2018.12-2019.03",
+    position: "Software Testing Engineer Intern"
+  }
+]
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
-  contactUrl: "",
+    "Life could be better, but it's good",
+  copyright: "Yujun Yan",
+  contactUrl: "https://formspree.io/f/xyyolnwj",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
+  github: "https://github.com/vermouthyyj",
+  // facebook: "https://facebook.com",
   // twitter: "https://twitter.com",
-  instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
-  resume: "https://novoresume.com/",
+  // instagram: "https://instagram.com",
+  linkedin: "https://www.linkedin.com/in/yujun-rachel-yan-4b7010195/",
+  resume: resumesrc,
 };
 // Dont change anything here
 export {
@@ -175,7 +180,8 @@ export {
   about,
   skillsBar,
   projects,
-  miscellaneous,
+  education,
+  industry,
   contact,
   social,
   section2title,

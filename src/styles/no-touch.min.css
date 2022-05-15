@@ -98,8 +98,6 @@ button:focus {
   bottom: 13px;
   right: -12px;
 }
-
-
 .header1 {
   color: #000;
   position: relative;
@@ -237,6 +235,20 @@ button:focus {
   align-items: center;
   padding: 3%;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.education--container {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.education--container .tab {
+  align-self: flex-start;
+  margin-left: 1%;
 }
 .project-card {
   padding: 15px;
@@ -332,7 +344,7 @@ button:focus {
 .half form input,
 textarea {
   width: 100%;
-  margin: 10px;
+  margin: 10px 0px;
   padding: 10px;
   border-radius: 5px;
   outline: 0;
@@ -392,8 +404,8 @@ textarea:focus {
 }
 .git-cont .fas {
   vertical-align: bottom;
-  font-size: 40px;
-  height: 30px;
+  font-size: 100%;
+  height: 3vh;
   margin: 25px;
   text-align: center;
   text-decoration: none;

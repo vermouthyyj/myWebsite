@@ -1,8 +1,17 @@
 import React from 'react'
 import { contact, section5Title, social } from '../../profile'
+import { Button } from 'antd'
+import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
-    
+    const [state, handleSubmit] = useForm("xyyolnwj");
+    if (state.succeeded) {
+        return <p>Thanks for joining!</p>;
+    }
+
+    function openDocument() { 
+        window.open(social.resume, '_blank');
+    }
     return (
         <div className="parallax">
                 <div data-aos="zoom-in-up" data-aos-once="true" className="git-form">
@@ -14,13 +23,51 @@ const Contact = () => {
                 <div className="container">
             <div className="git-cont row">
                 <div className="col-12 col-sm-6 half">
-                    <form action={contact.contactUrl ? contact.contactUrl : "https://formspree.io"} method={contact.contactUrl ? "POST" : "GET"}>
+                    {/* <form action={contact.contactUrl ? contact.contactUrl : "https://formspree.io"} method={contact.contactUrl ? "POST" : "GET"}>
                         <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                         <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                         <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
-                        <textarea id="msg" name="message" placeholder="Message" required></textarea>
+                        <textarea type="text" id="msg" name="message" placeholder="Message" required></textarea>
                         <button style={{cursor: 'pointer'}} type="submit">Send Message</button>
-                    </form>
+                    </form> */}
+                    <form onSubmit={handleSubmit}>
+                        <label htmlFor="email">
+                            Your Email Address
+                        </label>
+                        <input
+                            id="email"
+                            type="email" 
+                            name="email"
+                        />
+                        <ValidationError 
+                            prefix="Email" 
+                            field="email"
+                            errors={state.errors}
+                        />
+                        <label htmlFor="name">
+                            Your Name
+                        </label>
+                        <input
+                            id="name"
+                            type="text" 
+                            name="name"
+                        />
+                        <label htmlFor="message">
+                            Your Message
+                        </label>
+                        <textarea
+                            id="message"
+                            name="message"
+                        />
+                        <ValidationError 
+                            prefix="Message" 
+                            field="message"
+                            errors={state.errors}
+                        />
+                        <button type="submit" disabled={state.submitting}>
+        Submit
+      </button>
+    </form>
                 </div>
                 <div className="col-12 col-sm-6 half">
                     <p className="lead">
@@ -34,13 +81,14 @@ const Contact = () => {
                     {social.instagram && <a title="Visit Instagram profile" rel="noopener noreferrer" target="_blank" href={social.instagram}><i className="fab fa-instagram"></i></a>}
                     {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}<br/>
                 </div>
-                    {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
+                    {/* {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>} */}
+                    {social.resume && <Button type="primary" className="fas fa-download" onClick={openDocument}>Resume</Button>}
                 </div>
                 </div>
             </div>
             </div>
         </div>
-            <p id="not-dark" className="Copy">2020 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p>
+            <p id="not-dark" className="Copy">2022 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p>
         </div>
     )
     

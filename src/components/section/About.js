@@ -25,7 +25,7 @@ const About = () => {
             </div>
             </div>
             <div style={{marginTop:"5vh"}}>
-                <SkillBar skills={languageBar} height={'3vh'} colors={colors} animationDelay={ '1000'}/>
+                <SkillBar skills={languageBar} height={'3vh'} colors={colors} animationDelay={ '300'}/>
             </div>
             <div id="Skills"> 
                 <div className="row d-flex justify-content-center skills">
