@@ -21,6 +21,9 @@ button:focus {
 .bg-danger {
   background-color: var(--primary-color) !important;
 }
+#header-background {
+  background-image: url('../assets/headerBg.png');
+}
 .Header {
   text-align: center;
   align-items: center;
