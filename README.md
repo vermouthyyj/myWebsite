@@ -1,4 +1,6 @@
-# Web Developer React Portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/kaustubhai/portfolio-template?color=blue)](https://github.com/kaustubhai/portfolio-template/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/kaustubhai/portfolio-template)](https://github.com/kaustubhai/portfolio-template/stargazers)
+# React Portfolio
+
+Click here to access _[my website](https://vermouthyyj.herokuapp.com/)_.
 
 ## Table of Contents
 
@@ -6,7 +8,6 @@
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
 - [Deployment](#deployment)
-- [For the Future](#for-the-future)
 
 ## Sections
 
