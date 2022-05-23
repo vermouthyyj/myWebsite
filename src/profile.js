@@ -123,6 +123,18 @@ const projects = [
     skills: ["Unity, C#"],
     url: "https://m.youtube.com/watch?v=Fx_K3T4FdcU",
   },
+  {
+    id: "project7",
+    name: "Tenzies Game",
+    skills: ["React, Webpack"],
+    url: "https://vermouthyyj.github.io/Tenzies-Game/"
+  },
+  {
+    id: "project8",
+    name: "Markdown Note",
+    skills: ["React, Webpack"],
+    url: "https://vermouthyyj.github.io/Markdown-Note/"
+  }
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it

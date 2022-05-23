@@ -28,6 +28,14 @@
     background-image: url('../assets/snow.png');
     cursor: not-allowed;
 }
+.project7 {
+    background-image: url('../assets/tenzies.png');
+    cursor: not-allowed;
+}
+.project8 {
+    background-image: url('../assets/markdown.png');
+    cursor: not-allowed;
+}
 /* Miscelaneous Activities photo */
 .misc1{
     background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
