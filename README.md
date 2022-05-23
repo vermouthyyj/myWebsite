@@ -5,7 +5,6 @@
 - [Sections](#sections)
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
-- [Change and Customize](#change-and-customize-every-section-according-to-your-need)
 - [Deployment](#deployment)
 - [For the Future](#for-the-future)
 
@@ -17,7 +16,7 @@
 ✔️ Experience\
 ✔️ Projects\
 ✔️ Contact Form\
-✔️ Social Profile\
+✔️ Social Profile
 
 ## Getting Started
 
@@ -49,9 +48,22 @@ $ npm install
 $ npm start
 ```
 
-## Change and customize every section according to your need.
+## Deployment
 
-#### Personalize page content in `/src/profile.js` & modify it as per your need.
+```bash
+# If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+$ heroku login -i
+
+# Add changes to git
+$ git add .
+
+# commit the changes
+$ git commit -am "make it better"
+
+# push the code to the target branch
+$ git push heroku main
+
+```
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
