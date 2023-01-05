@@ -24,8 +24,9 @@ const about = {
 };
 
 const languageBar = [
-  { type: "React", level: 85  },
-  { type: "Javascript", level: 75 },
+  { type: "React", level: 85 },
+  { type: "Typescript", level: 75 },
+  { type: "Angular", level: 70},
   { type: "HTML", level: 65 },
   { type: "CSS", level: 65 },
   { type: "Webpack", level: 50 },
@@ -150,9 +151,19 @@ const education = [
     uni: "The University of Melbourne",
     time: "2018.02-2019.12",
     major: "Bachelor of Science",
+  },
+  {
+    uni: "Monash University",
+    time: "2017.02-2017.12",
+    major: "Bachelor of Information Technology",
   }
 ];
 const industry = [
+  {
+    company: "Citi",
+    time: "Shanghai | 2022.7-",
+    position: "Software Engineer"
+  },
   {
     company: "Boshantech",
     time: "Melbourne | 2020.12-2021.03",

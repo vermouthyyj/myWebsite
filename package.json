@@ -3,6 +3,10 @@
   "version": "0.1.1",
   "homepage": "https://vermouthyyj.github.io/myWebsite",
   "private": false,
+  "resolutions": {
+    "@types/react": "16.8.1",
+    "@types/react-dom": "16.8.1"
+  },
   "dependencies": {
     "@formspree/react": "^2.2.5",
     "@testing-library/jest-dom": "^5.11.6",
@@ -12,10 +16,8 @@
     "aos": "^2.3.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-particles-js": "^3.6.0",
     "react-pdf": "^5.7.2",
-    "react-scripts": "4.0.1",
-    "react-skillbars": "^2.0.1",
+    "react-scripts": "^5.0.1",
     "tsparticles": "1.33.2",
     "web-vitals": "^0.2.4"
   },
