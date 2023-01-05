@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/myWebsite/static/css/main.49419ba0.chunk.css",
-    "main.js": "/myWebsite/static/js/main.8a8dce32.chunk.js",
-    "main.js.map": "/myWebsite/static/js/main.8a8dce32.chunk.js.map",
-    "runtime-main.js": "/myWebsite/static/js/runtime-main.1ccdb0a1.js",
-    "runtime-main.js.map": "/myWebsite/static/js/runtime-main.1ccdb0a1.js.map",
-    "static/css/2.d7860871.chunk.css": "/myWebsite/static/css/2.d7860871.chunk.css",
-    "static/js/2.078fc4a4.chunk.js": "/myWebsite/static/js/2.078fc4a4.chunk.js",
-    "static/js/2.078fc4a4.chunk.js.map": "/myWebsite/static/js/2.078fc4a4.chunk.js.map",
-    "index.html": "/myWebsite/index.html",
-    "static/css/2.d7860871.chunk.css.map": "/myWebsite/static/css/2.d7860871.chunk.css.map",
-    "static/css/main.49419ba0.chunk.css.map": "/myWebsite/static/css/main.49419ba0.chunk.css.map",
-    "static/js/2.078fc4a4.chunk.js.LICENSE.txt": "/myWebsite/static/js/2.078fc4a4.chunk.js.LICENSE.txt",
-    "static/media/images.css": "/myWebsite/static/media/vaccine.8cb50e75.png",
-    "static/media/CV_of_Yujun_Yan.e93c53a0.pdf": "/myWebsite/static/media/CV_of_Yujun_Yan.e93c53a0.pdf",
-    "static/media/no-touch.min.css": "/myWebsite/static/media/headerBg.afc5c3ba.png"
+    "main.css": "/static/css/main.d5ffc3ab.css",
+    "main.js": "/static/js/main.0e0e2308.js",
+    "static/media/snow.png": "/static/media/snow.44820d59c33ce6daf6b7.png",
+    "static/media/headerBg.png": "/static/media/headerBg.afc5c3ba8933d84b8159.png",
+    "static/media/me.png": "/static/media/me.4f2f0a85d500c8088319.png",
+    "static/media/project1.png": "/static/media/project1.450c10bb7e6b1e756fc9.png",
+    "static/media/family-artifact.png": "/static/media/family-artifact.7751d3d18f15f5f29bd9.png",
+    "static/media/AZUL-Game.png": "/static/media/AZUL-Game.c23aebab5593a427c4eb.png",
+    "static/media/genyusRoundtable.png": "/static/media/genyusRoundtable.f855277394f0a3eba443.png",
+    "static/media/CV_of_Yujun_Yan.pdf": "/static/media/CV_of_Yujun_Yan.e93c53a06f4831b1b973.pdf",
+    "static/media/bgi.png": "/static/media/bgi.75140e10bfdab5322240.png",
+    "static/media/vaccine.png": "/static/media/vaccine.8cb50e75a5e7894cd7d2.png",
+    "static/media/markdown.png": "/static/media/markdown.26c3e5048fccdf94b375.png",
+    "static/media/tenzies.png": "/static/media/tenzies.f57e6a36b6fd0ba71de4.png",
+    "index.html": "/index.html",
+    "main.d5ffc3ab.css.map": "/static/css/main.d5ffc3ab.css.map",
+    "main.0e0e2308.js.map": "/static/js/main.0e0e2308.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.1ccdb0a1.js",
-    "static/css/2.d7860871.chunk.css",
-    "static/js/2.078fc4a4.chunk.js",
-    "static/css/main.49419ba0.chunk.css",
-    "static/js/main.8a8dce32.chunk.js"
+    "static/css/main.d5ffc3ab.css",
+    "static/js/main.0e0e2308.js"
   ]
 }
