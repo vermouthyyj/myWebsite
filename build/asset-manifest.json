@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ad8bfbf.chunk.css",
-    "main.js": "/static/js/main.f10b9cfa.chunk.js",
-    "main.js.map": "/static/js/main.f10b9cfa.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.23522f16.js",
-    "runtime-main.js.map": "/static/js/runtime-main.23522f16.js.map",
-    "static/css/2.d7860871.chunk.css": "/static/css/2.d7860871.chunk.css",
-    "static/js/2.06993249.chunk.js": "/static/js/2.06993249.chunk.js",
-    "static/js/2.06993249.chunk.js.map": "/static/js/2.06993249.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.d7860871.chunk.css.map": "/static/css/2.d7860871.chunk.css.map",
-    "static/css/main.0ad8bfbf.chunk.css.map": "/static/css/main.0ad8bfbf.chunk.css.map",
-    "static/js/2.06993249.chunk.js.LICENSE.txt": "/static/js/2.06993249.chunk.js.LICENSE.txt",
-    "static/media/images.css": "/static/media/vaccine.8cb50e75.png",
-    "static/media/CV_of_Yujun_Yan.e93c53a0.pdf": "/static/media/CV_of_Yujun_Yan.e93c53a0.pdf",
-    "static/media/no-touch.min.css": "/static/media/bgi.75140e10.png"
+    "main.css": "/myWebsite/static/css/main.49419ba0.chunk.css",
+    "main.js": "/myWebsite/static/js/main.8a8dce32.chunk.js",
+    "main.js.map": "/myWebsite/static/js/main.8a8dce32.chunk.js.map",
+    "runtime-main.js": "/myWebsite/static/js/runtime-main.1ccdb0a1.js",
+    "runtime-main.js.map": "/myWebsite/static/js/runtime-main.1ccdb0a1.js.map",
+    "static/css/2.d7860871.chunk.css": "/myWebsite/static/css/2.d7860871.chunk.css",
+    "static/js/2.078fc4a4.chunk.js": "/myWebsite/static/js/2.078fc4a4.chunk.js",
+    "static/js/2.078fc4a4.chunk.js.map": "/myWebsite/static/js/2.078fc4a4.chunk.js.map",
+    "index.html": "/myWebsite/index.html",
+    "static/css/2.d7860871.chunk.css.map": "/myWebsite/static/css/2.d7860871.chunk.css.map",
+    "static/css/main.49419ba0.chunk.css.map": "/myWebsite/static/css/main.49419ba0.chunk.css.map",
+    "static/js/2.078fc4a4.chunk.js.LICENSE.txt": "/myWebsite/static/js/2.078fc4a4.chunk.js.LICENSE.txt",
+    "static/media/images.css": "/myWebsite/static/media/vaccine.8cb50e75.png",
+    "static/media/CV_of_Yujun_Yan.e93c53a0.pdf": "/myWebsite/static/media/CV_of_Yujun_Yan.e93c53a0.pdf",
+    "static/media/no-touch.min.css": "/myWebsite/static/media/headerBg.afc5c3ba.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.23522f16.js",
+    "static/js/runtime-main.1ccdb0a1.js",
     "static/css/2.d7860871.chunk.css",
-    "static/js/2.06993249.chunk.js",
-    "static/css/main.0ad8bfbf.chunk.css",
-    "static/js/main.f10b9cfa.chunk.js"
+    "static/js/2.078fc4a4.chunk.js",
+    "static/css/main.49419ba0.chunk.css",
+    "static/js/main.8a8dce32.chunk.js"
   ]
 }
