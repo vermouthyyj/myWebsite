@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Particles from "./components/layouts/Particles";
 import Header from "./components/section/Header";
 import About from "./components/section/About";
 import Education from "./components/section/Education";
@@ -22,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Particles />
+      {/* <Particles /> */}
       <About />
       <Education />
       <Works />

@@ -35,7 +35,6 @@ const Header = () => {
                 <div className="role">
                     <div className="block"></div>
                     <p>Welcome to my portfolio :）</p>
-                    <p><i>Trypophobia Friendly Click to remove the particles :）</i></p>
                 </div>
                 </div>
             </div>
